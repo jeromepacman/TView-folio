@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>https://tview.fr</loc>
+	<lastmod>2020-12-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://tview.fr/img/siteperso.jpg</image:loc>
+	<image:title>slide1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/site_pro1200.jpg</image:loc>
+	<image:title>slide2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/humanitarian.jpg</image:loc>
+	<image:title>slide3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/you.jpg</image:loc>
+	<image:title>you</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/e-commerce.jpg</image:loc>
+	<image:title>shop</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/pro.jpg</image:loc>
+	<image:title>apps</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/responsive.jpg</image:loc>
+	<image:title>responsive</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/security.jpg</image:loc>
+	<image:title>security</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/customizable.jpg</image:loc>
+	<image:title>customizable</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://tview.fr/you/</loc>
+	<lastmod>2020-12-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://tview.fr/shop/</loc>
+	<lastmod>2020-12-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://tview.fr/apps/</loc>
+	<lastmod>2020-12-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://tview.fr/infos/</loc>
+	<lastmod>2020-12-17</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://tview.fr/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
