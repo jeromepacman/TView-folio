@@ -10,7 +10,7 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
-/* = Blocs
+/* Blocs
 -------------------------------------------------------------- */
 
 .bloc{
@@ -209,7 +209,8 @@ a:hover{text-decoration: none; cursor:pointer;}
 	box-shadow:0 1px 2px rgba(0,0,0,.3);
 	 transition: all .2s ease-out;
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
+/* Handle Multi Level Navigation */
+.navbar-light .navbar-nav .nav-link {
 	color: rgb(64, 64, 64);
 }
 .btco-menu li > a {
@@ -495,10 +496,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/pro.jpg");
 }
 
-/* = Custom Bric Data
+/* = Custom Datas
 -------------------------------------------------------------- */
 
-/**** * Card Designer  Author: Code My Brand, Whittfield Holmes * Last Modified Date: August 3, 2020 8:00am CST********//* Helpers */.font-loaders, .font-loaders a {
+/**** * Card Designer  * 
+
+-> todo -> lot of css have to be cleaned   */
+
+.font-loaders, .font-loaders a {
 	height:0px;
 	 display:none;
 	position: absolute;
@@ -533,7 +538,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[onClick] {
 	cursor: pointer;
 }
-/* Base props */* {
+/* Base props */
+* {
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
 }
@@ -566,7 +572,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:750px;
 	 margin:0 auto}.cd-container[data-max-width="400"][data-center-card="true"]{
 	max-width:400px;
-	 margin:0 auto}/* Title */.cd-title {
+	 margin:0 auto}
+
+	 /* Title */
+.cd-title {
 	transition:font-size .4s ease;
 	 display:block;
 	 margin-top:5px;
@@ -602,7 +611,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.cd-container[data-align-caption="right"] .cd-title {
 	margin-right: 0px;
 }
-}/* Title fx */.cd-container[data-title-fx="Hard Shadow"] .cd-title {
+}/* Title fx */
+.cd-container[data-title-fx="Hard Shadow"] .cd-title {
 	text-shadow:6px 6px 0 rgba(0,0,0,.2)}.cd-container[data-title-fx="Close Heavy"] .cd-title {
 	text-shadow:0 4px 3px rgba(0,0,0,.4),0 8px 13px rgba(0,0,0,.1),0 18px 23px rgba(0,0,0,.1)}.cd-container[data-title-fx="Light Sources"] .cd-title {
 	text-shadow:0 15px 5px rgba(0,0,0,.1),10px 20px 5px rgba(0,0,0,.05),-10px 20px 5px rgba(0,0,0,.05)}.cd-container[data-title-fx="Outline Dark"] .cd-title {
@@ -614,7 +624,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[data-title-fx="Very Subtle"] .cd-title {
 	text-shadow: 2px 1px 2px rgba(206,89,55,0.65);
 }
-/* Title width */.cd-container[data-title-width="100%"] .cd-title a {
+/* Title width */
+.cd-container[data-title-width="100%"] .cd-title a {
 	max-width: 100%;
 }
 .cd-container[data-title-width="1080px"] .cd-title a {
@@ -632,7 +643,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[data-title-width="400px"] .cd-title a {
 	max-width: 400px;
 }
-/* Tagline */.cd-container .cd-tagline {
+/* Tagline */
+.cd-container .cd-tagline {
 	margin:0;
 	padding:0;
 	font-weight:normal;
@@ -642,7 +654,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	 font-size:.67em;
 	 font-weight:normal;
 }
-/* Height  */.cd-container[data-min-height="540"] .custom-bric-img-item,.cd-container[data-min-height="540"] .cd-gradient,.cd-container[data-min-height="540"] .cd-background,.cd-container[data-min-height="540"] .cd-wrapper {
+/* Height  */
+.cd-container[data-min-height="540"] .custom-bric-img-item,.cd-container[data-min-height="540"] .cd-gradient,.cd-container[data-min-height="540"] .cd-background,.cd-container[data-min-height="540"] .cd-wrapper {
 	height:540px}.cd-container[data-min-height="400"] .custom-bric-img-item,.cd-container[data-min-height="400"] .cd-gradient,.cd-container[data-min-height="400"] .cd-background,.cd-container[data-min-height="400"] .cd-wrapper {
 	height:400px}.cd-container[data-min-height="300"] .custom-bric-img-item,.cd-container[data-min-height="300"] .cd-gradient,.cd-container[data-min-height="300"] .cd-background,.cd-container[data-min-height="300"] .cd-wrapper {
 	height:300px}.cd-container[data-min-height="200"] .custom-bric-img-item,.cd-container[data-min-height="200"] .cd-gradient,.cd-container[data-min-height="200"] .cd-background,.cd-container[data-min-height="200"] .cd-wrapper {
@@ -651,7 +664,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:400px}.cd-container[data-min-height="300"][data-hover-mode="inactive"][data-caption-position="top"] .cd-data,.cd-container[data-min-height="300"][data-hover-mode="inactive"][data-caption-position="middle"] .cd-data {
 	height:300px}.cd-container[data-min-height="200"][data-hover-mode="inactive"][data-caption-position="top"] .cd-data,.cd-container[data-min-height="200"][data-hover-mode="inactive"][data-caption-position="middle"] .cd-data {
 	height:200px}.card-designer[data-height-short="0"][data-min-height="400"] .custom-bric-img-item,.card-designer[data-height-short="0"][data-min-height="540"]{
-	height:400px}/* Data */.cd-data {
+	height:400px}
+	/* Data */
+.cd-data {
 	transition:all .4s ease;
 }
 .cd-container[data-align-caption="center"] .cd-data{
@@ -687,7 +702,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[data-caption-position="top"] .cd-data {
 	align-items:top}.cd-container[data-caption-position="middle"] .cd-data {
 	align-items:center}.cd-container[data-caption-position="hover"] .cd-data, .cd-container[data-caption-position="end"] .cd-data {
-	align-items:end}/* Caption */.cd-container .cd-caption span {
+	align-items:end}
+	
+	/* Caption */
+.cd-container .cd-caption span {
 	font-size:.9em;
 	 line-height:1.4em;
 }
@@ -736,7 +754,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	 transition: opacity .3s ease}.cd-container[data-align-caption="center"] .cd-caption{
 	text-align:center;
 }
-/* Radius */.cd-container[data-radius-value="1"] .cd-shell,.cd-container[data-radius-value="1"] .card-designer {
+/* Radius */
+.cd-container[data-radius-value="1"] .cd-shell,.cd-container[data-radius-value="1"] .card-designer {
 	-webkit-clip-path:inset(0% 0% 0% 0% round 6px);
 	 clip-path:inset(0% 0% 0% 0% round 6px);
 }
@@ -764,7 +783,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	-webkit-clip-path:inset(0% 0% 0% 0% round 30px);
 	 clip-path:inset(0% 0% 0% 0% round 30px);
 }
-/* Gradient BG */.cd-container[data-gradient-color="Dim"] .cd-gradient{
+/* Gradient BG */
+.cd-container[data-gradient-color="Dim"] .cd-gradient{
 	background:linear-gradient(to top,#000 0,hsla(0,0%,0%,.987) 8.1%,hsla(0,0%,0%,.951) 15.5%,hsla(0,0%,0%,.896) 22.5%,hsla(0,0%,0%,.825) 29%,hsla(0,0%,0%,.741) 35.3%,hsla(0,0%,0%,.648) 41.2%,hsla(0,0%,0%,.55) 47.1%,hsla(0,0%,0%,.45) 52.9%,hsla(0,0%,0%,.352) 58.8%,hsla(0,0%,0%,.259) 64.7%,hsla(0,0%,0%,.175) 71%,hsla(0,0%,0%,.104) 77.5%,hsla(0,0%,0%,.049) 84.5%,hsla(0,0%,0%,.013) 91.9%,hsla(0,0%,0%,0) 100%)}.cd-container[data-gradient-color="Bright"] .cd-gradient{
 	background:linear-gradient(to bottom,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.013) 8.1%,hsla(0,0%,100%,.049) 15.5%,hsla(0,0%,100%,.104) 22.5%,hsla(0,0%,100%,.175) 29%,hsla(0,0%,100%,.259) 35.3%,hsla(0,0%,100%,.352) 41.2%,hsla(0,0%,100%,.45) 47.1%,hsla(0,0%,100%,.55) 52.9%,hsla(0,0%,100%,.648) 58.8%,hsla(0,0%,100%,.741) 64.7%,hsla(0,0%,100%,.825) 71%,hsla(0,0%,100%,.896) 77.5%,hsla(0,0%,100%,.951) 84.5%,hsla(0,0%,100%,.987) 91.9%,#fff 100%)}.cd-container[data-gradient-color="Cool"] .cd-gradient{
 	background:linear-gradient(to top,hsl(247.09,45.08%,47.84%) 0,hsla(247.09,45.08%,47.84%,.987) 8.1%,hsla(247.09,45.08%,47.84%,.951) 15.5%,hsla(247.09,45.08%,47.84%,.896) 22.5%,hsla(247.09,45.08%,47.84%,.825) 29%,hsla(247.09,45.08%,47.84%,.741) 35.3%,hsla(247.09,45.08%,47.84%,.648) 41.2%,hsla(247.09,45.08%,47.84%,.55) 47.1%,hsla(247.09,45.08%,47.84%,.45) 52.9%,hsla(247.09,45.08%,47.84%,.352) 58.8%,hsla(247.09,45.08%,47.84%,.259) 64.7%,hsla(247.09,45.08%,47.84%,.175) 71%,hsla(247.09,45.08%,47.84%,.104) 77.5%,hsla(247.09,45.08%,47.84%,.049) 84.5%,hsla(247.09,45.08%,47.84%,.013) 91.9%,hsla(247.09,45.08%,47.84%,0) 100%)}.cd-container[data-gradient-color="Warm"] .cd-gradient{
@@ -854,7 +874,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	transform: scale(1.15);
 	 transition: transform .6s ease;
 }
-
 
 .cd-gradient{
 	opacity:.6;
@@ -964,7 +983,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[data-caption-position="hover"][data-align-caption="center"] .cd-button,.cd-container[data-caption-position="end"][data-align-caption="center"] .cd-button  {
 	margin: 1em auto 1.2em auto;
 }
-/* Horizontal Rule */.cd-rule span{
+/* Horizontal Rule */
+.cd-rule span{
 	display:inline-block;
 	 border-top:1px solid;
 	 width:50px;
@@ -989,7 +1009,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .cd-container[data-hover-mode="inactive"][data-has-button="false"][data-has-caption="false"] .cd-title {
 	margin-bottom:0px !important;
 }
-/* Active Hover */.cd-container[data-hover-mode="active"] .cd-gradient {
+/* Active Hover */
+.cd-container[data-hover-mode="active"] .cd-gradient {
 	-webkit-transform: translateY(calc(0px + 4.7em));
 	 transform: translateY(calc(0px + 4.7em));
 	 transition:all .4s ease;
@@ -1050,6 +1071,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:auto;
 }
 
+/*********************************************************************************************************/
 	
 #particles-js{
 	position: absolute;
@@ -1062,7 +1084,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 
 
-/* = Bloc Padding Multi Breakpoint
+/* Media queries breakpoints
 -------------------------------------------------------------- */
 
 @media (min-width: 576px) {
