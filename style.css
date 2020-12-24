@@ -560,7 +560,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	display:none}.card-designer input[type=checkbox]:checked+.link{
 	-webkit-transform:translateY(-60px);
 	transform:translateY(-60px);
-	transition:opacity .3s ease}/* CD container  */.cd-container[data-border-color="transparent"]{
+	transition:opacity .3s ease}
+	
+/* CD container  */
+.cd-container[data-border-color="transparent"]{
 	border-color:transparent;
 }
 .cd-container[data-max-width="0"][data-center-card="false"]{
