@@ -9,7 +9,7 @@
 	$message = $_POST['message'];
 	$optin = $_POST['optin'];
 	
-	$to = 'contact@tview.fr'; // Email submissions are sent to this email
+	$to = 'contact@tview.fr'; // Email submissions to site email
 
 	// Create email	
 	$email_subject = "Message from Tview";
