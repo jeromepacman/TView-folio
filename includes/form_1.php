@@ -1,23 +1,22 @@
 <?php	
-	if (empty($_POST['name']) && strlen($_POST['name']) == 0 || empty($_POST['email']) && strlen($_POST['email']) == 0 || empty($_POST['message']) && strlen($_POST['message']) == 0)
+	if (empty($_POST['email']) && strlen($_POST['email']) == 0 || empty($_POST['message']) && strlen($_POST['message']) == 0)
 	{
 		return false;
 	}
 	
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$optin = $_POST['optin'];
 	
-	$to = 'contact@tview.fr';
+	$to = 'contact@tview.fr'; // Email submissions are sent to this email
 
-		
-	$email_subject = "Message from Tview website.";
-	$email_body = "You have received a new message. \n\n".
-				  "Name: $name \nEmail: $email \nEmail: $email \nMessage: $message \nOptin: $optin \n";
+	// Create email	
+	$email_subject = "Message from Tview";
+	$email_body = "Nouveau message \n\n".
+				  "Name: $name \nEmail: $email \nMessage: $message \nOptin: $optin \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@site.com\n";
+	$headers .= "From: contact@tview.fr\n";
 	$headers .= "Reply-To: $email";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message

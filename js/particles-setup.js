@@ -1,6 +1,3 @@
-/* -----------------------------------------------
-/* Particles Setup
-/* ----------------------------------------------- */
 
 // Move Particle Layer
 $('#particles-js').prependTo($('#particles-js').closest('.bloc'));
@@ -17,7 +14,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#414141"
+        "value": "#A9A9A9"
       },
       "shape": {
         "type": "circle",
@@ -45,7 +42,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 10,
+        "value": 6,
         "random": true,
         "anim": {
           "enable": false,
@@ -57,13 +54,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#414141",
+        "color": "#A9A9A9",
         "opacity": 0.00,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 3,
         "direction": "none",
         "random": true,
         "straight": false,
